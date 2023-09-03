@@ -3,10 +3,10 @@
 
 $custom-theme-colors: (
     "cus-primary": #1D3557,
-    "cus-secondary": #457B9D,
-    "cus-tertiary": #A8DADC,
-    "fourth": #dae0e3,
-    "fifth": #E63946
+    "cus-secondary": #0E1B23,
+    "cus-tertiary": #FF0000,
+    "cus-nav": #F2F2F2,
+    "cus-inset": #303030,
 );
 
 $theme-colors: map-merge($custom-theme-colors, $theme-colors);
