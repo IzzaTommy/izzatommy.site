@@ -1,4 +1,46 @@
-@media (max-aspect-ratio: 12/5) {
+/* typical standard size screens will use this */
+@media (max-aspect-ratio: 23/10) {
+    #intro {
+        height: 110vh;
+    }
+}
+
+/* atypical extra-wide screens will use these*/
+@media (not (max-aspect-ratio: 23/10)) and (min-width: 400px) {
+    #intro {
+        height: 350px;
+    }
+}
+
+@media (not (max-aspect-ratio: 23/10)) and (min-width: 700px) {
+    #intro {
+        height: 600px;
+    }
+}
+
+@media (not (max-aspect-ratio: 23/10)) and (min-width: 1200px) {
+    #intro {
+        height: 850px;
+    }
+}
+
+@media (not (max-aspect-ratio: 23/10)) and (min-width: 1700px) {
+    #intro {
+        height: 1100px;
+    }
+}
+
+#intro {
+    width: 100%;
+    background-image: url("../backgrounds/bluefirewatch.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+/*OLD*/
+/*@media (max-aspect-ratio: 23/10) {
     #intro {
         height: 110vh;
     }
@@ -8,7 +50,7 @@
     }
 }
 
-@media not (max-aspect-ratio: 12/5) {
+@media not (max-aspect-ratio: 23/10) {
     #intro {
         height: auto;
     }
@@ -21,4 +63,4 @@
 .fw-img {
     width: 100%;
     height: 100%;
-}
+}*/
