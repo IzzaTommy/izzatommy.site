@@ -12,25 +12,40 @@
 
     <title>Thomas Joel's Portfolio Website</title>
 </head>
-<body class="bg-cus-inset">
-    <navbar class="bg-cus-nav navbar navbar-expand-lg">
+<body class="bg-cust-ingress">
+    <navbar class="bg-cust-light navbar navbar-expand-lg p-1">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Thomas Joel</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav fs-6">
                   <li class="nav-item">
                     <a class="nav-link active" href="#">About Me</a>
                   </li>
+
+                  <li class="d-none d-lg-flex nav-item py-lg-2">
+                    <div class="vr d-none d-lg-flex h-100 mx-lg-4 text-black"></div>
+                  </li>
+
                   <li class="nav-item">
                     <a class="nav-link active" href="#">Projects</a>
                   </li>
+
+                  <li class="d-none d-lg-flex nav-item py-lg-2">
+                    <div class="vr d-none d-lg-flex h-100 mx-lg-4 text-black"></div>
+                  </li>
+
                   <li class="nav-item">
                     <a class="nav-link active" href="#">Skills</a>
                   </li>
+
+                  <li class="d-none d-lg-flex nav-item py-lg-2">
+                    <div class="vr d-none d-lg-flex h-100 mx-lg-4 text-black"></div>
+                  </li>
+
                   <li class="nav-item">
                     <a class="nav-link active" href="#">Resume</a>
                   </li>
@@ -39,87 +54,56 @@
         </div>
     </navbar>
 
-    <section class="mt-2 text-cus-nav" id="intro">
-    </section>
-
-    <section class="bg-cus-secondary" id="projects">
-        <div class="container-lg">
-            <div class="row row-cols-sm-2 row-cols-md-3 row-cols-lg-4 align-items-center">
-                <div class="col mt-sm-2 mb-sm-2 mt-md-3 mt-lg-4 mb-lg-4">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="izzatommy.site Preview">
-                        <div class="card-body">
-                            <h5 class="card-title">izzatommy.site</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">HTML, Bootstrap</h6>
-                            <p class="card-text">A website for expressing myself and showing my work.</p>
-                            <button class="btn btn-cus-primary">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col mt-sm-2 mb-sm-2 mt-md-3 mt-lg-4 mb-lg-4">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="Infographic Maker Preview">
-                        <div class="card-body">
-                            <h5 class="card-title">Infographic Maker</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Python</h6>
-                            <p class="card-text">An application for creating infographics displaying ability combinations in Genshin Impact.</p>
-                            <button class="btn btn-cus-primary">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col mt-sm-2 mb-sm-2 mt-md-3 mt-lg-4 mb-lg-4">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="Video Recording Software Preview">
-                        <div class="card-body">
-                            <h5 class="card-title">Video Recording Software</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">C++</h6>
-                            <p class="card-text">An application utilizing FFMPEG to clip and share game footage.</p>
-                            <button class="btn btn-cus-primary">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col mt-sm-2 mb-sm-2 mt-md-3 mt-lg-4 mb-lg-4">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="PC Fan Visualizer Preview">
-                        <div class="card-body">
-                            <h5 class="card-title">PC Fan Visualizer</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">Python, C++</h6>
-                            <p class="card-text">An application for visualizing the fans of a PC in a wireframe diagram.</p>
-                            <button class="btn btn-cus-primary">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col mt-sm-2 mb-sm-2 mt-md-3 mt-lg-4 mb-lg-4">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="Schedule Planner Visualizer">
-                        <div class="card-body">
-                            <h5 class="card-title">Schedule Planner</h5>
-                            <h6 class="card-subtitle mb-2 text-body-secondary">HTML, CSS, Javascript</h6>
-                            <p class="card-text">A local-storage web application for notes and quick event scheduling.</p>
-                            <button class="btn btn-cus-primary">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </button>
-                        </div>
-                    </div>
-                </div>
+    <section class="mt-1" id="intro">
+        <div class="container-fluid">
+            <div class="row text-center text-cust-light">
+              <div class="col mt-vh70">
+                <h1 class="display-1">Hi,</h1>
+              </div>
+              <div class="w-100"></div>
+              <div class="col">
+                <h1 class="display-1">I'm Thomas</h1>
+              </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-cus-tertiary" id="skills">
-        test
+
+
+
+
+
+    <section class="" id="aboutme">
+        <div class="container-lg">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6 text-center">
+                    <img src="/assets/TJ_Cropped.jpg" class="img-fluid rounded-circle border border-5 border-cust-light" style="width: 400px!important" alt="Thomas Joel Portrait">
+                </div>
+                <div class="col-12 offset-0 col-md-6 offset-md-0 mt-4 mt-md-0 text-cust-light fs-5 text-start">
+                  <p class="bg-cust-text-bg bg-opacity-50 rounded border border-6 border-opacity-25 border-cust-light p-3">
+                    I'm a graduate from UCSD's Class of 2024.
+                    <br><br>
+                    I've pursued an interest in computer science since middle school, picking up lots of different tools and problem solving skills along the way.
+                    <br><br>
+                    Since taking software engineering and data analytics courses at UCSD, I've grown interested in web development and technologies.
+                  </p>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <section class="" id="projects">
+    </section>
+
+
+
+    <section class="" id="skills">
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

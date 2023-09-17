@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('../assets/Cascadia Mono PL SemiBold 600.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Yu Gothic';
+    src: url('../assets/Yu\ Gothic\ Medium.ttf');
+}
+
 /* typical standard size screens will use this */
 @media (max-aspect-ratio: 23/10) {
     #intro {
@@ -32,11 +42,30 @@
 
 #intro {
     width: 100%;
-    background-image: url("../backgrounds/bluefirewatch.png");
+    background-image: url('../backgrounds/bluefirewatch.png');
     background-size: cover;
     background-position: center center;
 }
 
+#aboutme {
+    background-image: linear-gradient(180deg, #0E1B23, #1B313F);
+}
+
+#projects {
+    background: linear-gradient(180deg, #0E1B23, #1B313F);
+}
+
+.display-1 {
+    font-family: 'Cascadia Code';
+}
+
+.display-2 {
+    font-family: 'Cascadia Code';
+}
+
+p {
+    font-family: 'Yu Gothic';
+}
 
 
 /*OLD*/
