@@ -55,49 +55,57 @@
     background: #F2F2F2;
 }
 
+#skills {
+    background: #386481;
+}
+
 .display-1, .display-2 {
     font-family: 'Cascadia Code';
 }
 
-p {
+p, h2{
     font-family: 'Yu Gothic';
 }
 
-.card-img-overlay {
+.card-body {
+    background-size: cover;
+    background-position: center center;
+}
+
+.proj-1 {
+    background-image: url('/assets/izzatommysite.png');
+}
+
+.proj-2 {
+    background-image: url('/assets/infographicmaker.png');
+}
+
+.proj-3 {
+    background-image: url('/assets/pcfanvisualizer.png');
+}
+
+.card-subtitle, .card-text, .btn {
     opacity: 0;
-    
-
-    transition: all 0.2s;
 }
-.card-img-overlay:hover {
+
+.card-body:hover :is(.card-subtitle, .card-text, .btn), .card-header:hover + .card-body :is(.card-subtitle, .card-text, .btn) {
     opacity: 1;
-    background-color: rgba(0, 0, 0, 0.7);
-    
 }
 
+.proj-1:hover, .card-header:hover + .proj-1 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/izzatommysite.png');
+    background-size: cover;
+    background-position: center center;
+} 
 
-/*OLD*/
-/*@media (max-aspect-ratio: 23/10) {
-    #intro {
-        height: 110vh;
-    }
+.proj-2:hover, .card-header:hover + .proj-2 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/infographicmaker.png');
+    background-size: cover;
+    background-position: center center;
+} 
 
-    .fw-img {
-        object-fit: cover;
-    }
-}
-
-@media not (max-aspect-ratio: 23/10) {
-    #intro {
-        height: auto;
-    }
-}
-
-#intro {
-    width: 100%;
-}
-
-.fw-img {
-    width: 100%;
-    height: 100%;
-}*/
+.proj-3:hover, .card-header:hover + .proj-3 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/pcfanvisualizer.png');
+    background-size: cover;
+    background-position: center center;
+} 
