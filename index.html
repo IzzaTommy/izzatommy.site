@@ -7,14 +7,17 @@
   <link href="css/main.min.css" rel="stylesheet">
   <link href="css/site.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-          
+
   <title>Thomas Joel's Portfolio Website</title>
 </head>
 
-<body class="bg-cust-ingress" data-bs-spy="scroll" data-bs-target="navbarID" tabindex="0">
-  <navbar class="bg-cust-light navbar sticky-top navbar-expand-lg p-1 border border-4 border-top-0 border-start-0 border-end-0 border-cust-ingress" id="navbarID">
+<body class="bg-cust-ingress" id="topScrollspy" data-bs-smooth-scroll="true" data-bs-spy="scroll"
+  data-bs-target="navbarScrollspy" tabindex="0">
+  <navbar
+    class="bg-cust-light navbar sticky-top navbar-expand-lg p-1 border border-4 border-top-0 border-start-0 border-end-0 border-cust-ingress"
+    id="navbarScrollspy">
     <div class="container-fluid">
-      <a class="navbar-brand text-ingress" href="#">Thomas Joel</a>
+      <a class="navbar-brand text-ingress" href="#topScrollspy">Thomas Joel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -23,7 +26,7 @@
         <ul class="navbar-nav nav-underline fs-6">
 
           <li class="nav-item">
-            <a class="nav-link text-ingress" href="#scrollspyAboutMe">About Me</a>
+            <a class="nav-link text-ingress" href="#aboutmeScrollspy">About Me</a>
           </li>
 
           <li class="d-none d-lg-flex nav-item py-lg-2">
@@ -31,7 +34,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-ingress" href="#scrollspyProjects">Projects</a>
+            <a class="nav-link text-ingress" href="#projectsScrollspy">Projects</a>
           </li>
 
           <li class="d-none d-lg-flex nav-item py-lg-2">
@@ -39,7 +42,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-ingress" href="#scrollspySkills">Skills</a>
+            <a class="nav-link text-ingress" href="#skillsScrollspy">Skills</a>
           </li>
 
           <li class="d-none d-lg-flex nav-item py-lg-2">
@@ -58,7 +61,7 @@
     </div>
   </navbar>
 
-  <section class="" id="intro">
+  <section id="landingScrollspy">
     <div class="container-fluid">
       <div class="row text-center text-cust-light">
         <div class="col mt-vh70">
@@ -72,10 +75,10 @@
     </div>
   </section>
 
-  <!-- <section class="pt-5 pb-6 pt-sm-6 pb-sm-7 pt-lg-8 pb-lg-8" id="scrollspyAboutMe"> -->
-    <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="scrollspyAboutMe">
+  <!-- <section class="pt-5 pb-6 pt-sm-6 pb-sm-7 pt-lg-8 pb-lg-8" id="aboutmeScrollspy"> -->
+  <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="aboutmeScrollspy">
     <div class="container-lg">
-            <h1 class="display-1 text-center pb-5 text-cust-light">About Me</h1>
+      <h1 class="display-1 text-center pb-5 text-cust-light">About Me</h1>
       <div class="row align-items-center">
         <div class="col-12 col-md-6 text-center">
           <img src="/assets/TJ_Cropped.jpg" class="img-fluid rounded-circle border border-5 border-cust-light"
@@ -96,14 +99,8 @@
     </div>
   </section>
 
-
-
-
-
-
-
-  <!-- <section class="pt-5 pb-6 pt-sm-6 pb-sm-7 pt-lg-7 pb-lg-8" id="scrollspyProjects"> -->
-    <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="scrollspyProjects">
+  <!-- <section class="pt-5 pb-6 pt-sm-6 pb-sm-7 pt-lg-7 pb-lg-8" id="projectsScrollspy"> -->
+  <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="projectsScrollspy">
     <div class="container-lg">
       <h1 class="display-1 text-center pb-5 text-cust-ingress">Projects</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-3 gy-xxl-4 justify-content-center">
@@ -116,8 +113,9 @@
 
               <p class="card-text">A website for expressing myself and showing my work.<br><br></p>
 
-              <button class="btn btn-cust-light p-1 devicon-github-original" onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
-                
+              <button class="btn btn-cust-light p-1 devicon-github-original"
+                onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
+
               </button>
             </div>
           </div>
@@ -132,7 +130,8 @@
               <p class="card-text">An application for creating infographics displaying ability combinations in Genshin
                 Impact.</p>
 
-                <button class="btn btn-cust-light p-1 devicon-github-original" onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
+              <button class="btn btn-cust-light p-1 devicon-github-original"
+                onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
             </div>
           </div>
         </div>
@@ -145,7 +144,8 @@
 
               <p class="card-text">An application for visualizing the fans of a PC in a wireframe diagram.<br><br></p>
 
-              <button class="btn btn-cust-light p-1 devicon-github-original" onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
+              <button class="btn btn-cust-light p-1 devicon-github-original"
+                onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
             </div>
           </div>
         </div>
@@ -158,7 +158,8 @@
 
               <p class="card-text">An application for visualizing the fans of a PC in a wireframe diagram.<br><br></p>
 
-              <button class="btn btn-cust-light p-1 devicon-github-original" onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
+              <button class="btn btn-cust-light p-1 devicon-github-original"
+                onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
             </div>
           </div>
         </div>
@@ -171,7 +172,8 @@
 
               <p class="card-text">An application for visualizing the fans of a PC in a wireframe diagram.<br><br></p>
 
-              <button class="btn btn-cust-light p-1 devicon-github-original" onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
+              <button class="btn btn-cust-light p-1 devicon-github-original"
+                onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
             </div>
           </div>
         </div>
@@ -184,7 +186,8 @@
 
               <p class="card-text">An application for visualizing the fans of a PC in a wireframe diagram.<br><br></p>
 
-              <button class="btn btn-cust-light p-1 devicon-github-original" onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
+              <button class="btn btn-cust-light p-1 devicon-github-original"
+                onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
             </div>
           </div>
         </div>
@@ -192,10 +195,8 @@
     </div>
   </section>
 
-
-
-  <!-- <section class="pt-5 pb-6 pt-sm-6 pb-sm-7 pt-lg-7 pb-lg-8" id="scrollspySkills"> -->
-    <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="scrollspySkills">
+  <!-- <section class="pt-5 pb-6 pt-sm-6 pb-sm-7 pt-lg-7 pb-lg-8" id="skillsScrollspy"> -->
+  <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="skillsScrollspy">
     <div class="container-lg">
       <h1 class="display-1 text-center pb-5 text-cust-light">Skills</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-3 gy-xxl-4 justify-content-center">
@@ -219,7 +220,8 @@
               <h2>Java</h2>
             </div>
             <div>
-              <p>Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>Some quick example text to build on the card title and make up the bulk of the card's content.Some
+                quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
         </div>
@@ -297,8 +299,6 @@
         </div>
       </div>
     </div>
-
-
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

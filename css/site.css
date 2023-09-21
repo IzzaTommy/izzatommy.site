@@ -10,52 +10,52 @@
 
 /* typical standard size screens will use this */
 @media (max-aspect-ratio: 23/10) {
-    #intro {
+    #landingScrollspy {
         height: 110vh;
     }
 }
 
 /* atypical extra-wide screens will use these*/
 @media (not (max-aspect-ratio: 23/10)) and (min-width: 400px) {
-    #intro {
+    #landingScrollspy {
         height: 350px;
     }
 }
 
 @media (not (max-aspect-ratio: 23/10)) and (min-width: 700px) {
-    #intro {
+    #landingScrollspy {
         height: 600px;
     }
 }
 
 @media (not (max-aspect-ratio: 23/10)) and (min-width: 1200px) {
-    #intro {
+    #landingScrollspy {
         height: 850px;
     }
 }
 
 @media (not (max-aspect-ratio: 23/10)) and (min-width: 1700px) {
-    #intro {
+    #landingScrollspy {
         height: 1100px;
     }
 }
 
-#intro {
+#landingScrollspy {
     width: 100%;
     background-image: url('../backgrounds/bluefirewatch.png');
     background-size: cover;
     background-position: center center;
 }
 
-#scrollspyAboutMe {
+#aboutmeScrollspy {
     background-image: linear-gradient(180deg, #0E1B23, #386481);
 }
 
-#scrollspyProjects {
+#projectsScrollspy {
     background: #F2F2F2;
 }
 
-#scrollspySkills {
+#skillsScrollspy {
     background: #386481;
 }
 
