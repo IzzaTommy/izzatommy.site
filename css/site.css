@@ -47,15 +47,15 @@
     background-position: center center;
 }
 
-#aboutme {
+#scrollspyAboutMe {
     background-image: linear-gradient(180deg, #0E1B23, #386481);
 }
 
-#projects {
+#scrollspyProjects {
     background: #F2F2F2;
 }
 
-#skills {
+#scrollspySkills {
     background: #386481;
 }
 
