@@ -11,13 +11,14 @@
   <title>Thomas Joel's Portfolio Website</title>
 </head>
 
-<body class="bg-cust-ingress" id="topScrollspy" data-bs-smooth-scroll="true" data-bs-spy="scroll"
-  data-bs-target="navbarScrollspy" tabindex="0">
+<body class="bg-cust-dark" data-bs-smooth-scroll="true" data-bs-spy="scroll" data-bs-target="navbarScrollspy"
+  tabindex="0">
+  <section id="topScrollspy"></section>
   <navbar
-    class="bg-cust-light navbar sticky-top navbar-expand-lg p-1 border border-4 border-top-0 border-start-0 border-end-0 border-cust-ingress"
+    class="bg-cust-light navbar sticky-top navbar-expand-lg p-1 border border-4 border-top-0 border-start-0 border-end-0 border-cust-dark"
     id="navbarScrollspy">
     <div class="container-fluid">
-      <a class="navbar-brand text-ingress" href="#topScrollspy">Thomas Joel</a>
+      <a class="navbar-brand text-dark" href="#topScrollspy">Thomas Joel</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,7 +27,7 @@
         <ul class="navbar-nav nav-underline fs-6">
 
           <li class="nav-item">
-            <a class="nav-link text-ingress" href="#aboutmeScrollspy">About Me</a>
+            <a class="nav-link text-dark" href="#aboutmeScrollspy">About Me</a>
           </li>
 
           <li class="d-none d-lg-flex nav-item py-lg-2">
@@ -34,7 +35,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-ingress" href="#projectsScrollspy">Projects</a>
+            <a class="nav-link text-dark" href="#projectsScrollspy">Projects</a>
           </li>
 
           <li class="d-none d-lg-flex nav-item py-lg-2">
@@ -42,7 +43,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-ingress" href="#skillsScrollspy">Skills</a>
+            <a class="nav-link text-dark" href="#skillsScrollspy">Skills</a>
           </li>
 
           <li class="d-none d-lg-flex nav-item py-lg-2">
@@ -50,7 +51,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link text-ingress" href="#">Resume</a>
+            <a class="nav-link text-dark" href="#resumeScrollspy">Resume</a>
           </li>
 
           <li class="d-none d-lg-flex nav-item py-lg-2">
@@ -75,17 +76,17 @@
     </div>
   </section>
 
-  <!-- <section class="pt-5 pb-6 pt-sm-6 pb-sm-7 pt-lg-8 pb-lg-8" id="aboutmeScrollspy"> -->
   <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="aboutmeScrollspy">
     <div class="container-lg">
       <h1 class="display-1 text-center pb-5 text-cust-light">About Me</h1>
       <div class="row align-items-center">
-        <div class="col-12 col-md-6 text-center">
+        <div class="col-12 col-lg-5 text-center text-xxl-end">
           <img src="/assets/TJ_Cropped.jpg" class="img-fluid rounded-circle border border-5 border-cust-light"
-            style="width: 400px!important" alt="Thomas Joel Portrait">
+          style="width: 400px!important" alt="Thomas Joel Portrait">
         </div>
-        <div class="col-12 offset-0 col-md-6 offset-md-0 mt-4 mt-md-0 text-cust-light fs-5 text-start">
-          <p class="bg-cust-text-bg bg-opacity-50 rounded border border-6 border-opacity-25 border-cust-light p-3">
+
+        <div class="col-12 col-lg-7 mt-4 mt-lg-0 text-cust-light fs-5 text-start d-flex justify-content-center justify-content-xxl-start ps-xxl-6">
+          <p class="bg-cust-text-bg bg-opacity-50 rounded border border-6 border-opacity-25 border-cust-light p-3" style="width: 600px!important">
             I'm a graduate from UCSD's Class of 2024.
             <br><br>
             I've pursued an interest in computer science since middle school, picking up lots of different tools and
@@ -95,23 +96,23 @@
             development and technologies.
           </p>
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- <section class="pt-5 pb-6 pt-sm-6 pb-sm-7 pt-lg-7 pb-lg-8" id="projectsScrollspy"> -->
   <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="projectsScrollspy">
     <div class="container-lg">
-      <h1 class="display-1 text-center pb-5 text-cust-ingress">Projects</h1>
+      <h1 class="display-1 text-center pb-5 text-cust-dark">Projects</h1>
       <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-3 gy-xxl-4 justify-content-center">
 
         <div class="col d-flex mx-xxl-3" style="width:350px">
           <div class="card">
-            <div class="card-header text-cust-ingress">izzatommy.site</div>
+            <div class="card-header text-cust-dark">izzatommy.site</div>
             <div class="card-body rounded-bottom-4 text-cust-light proj-1">
               <h6 class="card-subtitle mb-2">HTML, Bootstrap</h6>
 
-              <p class="card-text">A website for expressing myself and showing my work.<br><br></p>
+              <p class="card-text">A website serving as my portfolio, displaying my projects and skills as a prospective software engineer.<br></p>
 
               <button class="btn btn-cust-light p-1 devicon-github-original"
                 onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
@@ -123,7 +124,7 @@
 
         <div class="col d-flex mx-xxl-3" style="width:350px">
           <div class="card">
-            <div class="card-header text-cust-ingress">Infographic Maker</div>
+            <div class="card-header text-cust-dark">Infographic Maker</div>
             <div class="card-body rounded-bottom-4 text-cust-light proj-2">
               <h6 class="card-subtitle mb-2">Python</h6>
 
@@ -138,11 +139,11 @@
 
         <div class="col d-flex mx-xxl-3" style="width:350px">
           <div class="card">
-            <div class="card-header text-cust-ingress">PC Fan Visualizer</div>
+            <div class="card-header text-cust-dark">PC Fan Visualizer</div>
             <div class="card-body rounded-bottom-4 text-cust-light proj-3">
               <h6 class="card-subtitle mb-2">Python, C++</h6>
 
-              <p class="card-text">An application for visualizing the fans of a PC in a wireframe diagram.<br><br></p>
+              <p class="card-text">An application for visualizing the fan speeds of a PC in a wireframe diagram.<br><br></p>
 
               <button class="btn btn-cust-light p-1 devicon-github-original"
                 onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
@@ -152,11 +153,11 @@
 
         <div class="col d-flex mx-xxl-3" style="width:350px">
           <div class="card">
-            <div class="card-header text-cust-ingress">PC Fan Visualizer</div>
-            <div class="card-body rounded-bottom-4 text-cust-light proj-3">
-              <h6 class="card-subtitle mb-2">Python, C++</h6>
+            <div class="card-header text-cust-dark">RoommateHub</div>
+            <div class="card-body rounded-bottom-4 text-cust-light proj-4">
+              <h6 class="card-subtitle mb-2">HTML, JavaScript, CSS</h6>
 
-              <p class="card-text">An application for visualizing the fans of a PC in a wireframe diagram.<br><br></p>
+              <p class="card-text">A web application for organizing bills and responsibilities between living-mates.<br><br></p>
 
               <button class="btn btn-cust-light p-1 devicon-github-original"
                 onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
@@ -164,42 +165,27 @@
           </div>
         </div>
 
-        <div class="col d-flex mx-xxl-3" style="width:350px">
+        <!-- <div class="col d-flex mx-xxl-3" style="width:350px">
           <div class="card">
-            <div class="card-header text-cust-ingress">PC Fan Visualizer</div>
-            <div class="card-body rounded-bottom-4 text-cust-light proj-3">
-              <h6 class="card-subtitle mb-2">Python, C++</h6>
+            <div class="card-header text-cust-dark">PROJECT TITLE</div>
+            <div class="card-body rounded-bottom-4 text-cust-light proj-#">
+              <h6 class="card-subtitle mb-2">TECHNOLOGY</h6>
 
-              <p class="card-text">An application for visualizing the fans of a PC in a wireframe diagram.<br><br></p>
-
-              <button class="btn btn-cust-light p-1 devicon-github-original"
-                onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
-            </div>
-          </div>
-        </div>
-
-        <div class="col d-flex mx-xxl-3" style="width:350px">
-          <div class="card">
-            <div class="card-header text-cust-ingress">PC Fan Visualizer</div>
-            <div class="card-body rounded-bottom-4 text-cust-light proj-3">
-              <h6 class="card-subtitle mb-2">Python, C++</h6>
-
-              <p class="card-text">An application for visualizing the fans of a PC in a wireframe diagram.<br><br></p>
+              <p class="card-text">DESCRIPTION.<br><br></p>
 
               <button class="btn btn-cust-light p-1 devicon-github-original"
                 onclick="window.open('https://github.com', '_blank');" style="font-size:35px">
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
 
-  <!-- <section class="pt-5 pb-6 pt-sm-6 pb-sm-7 pt-lg-7 pb-lg-8" id="skillsScrollspy"> -->
   <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="skillsScrollspy">
     <div class="container-lg">
       <h1 class="display-1 text-center pb-5 text-cust-light">Skills</h1>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-3 gy-xxl-4 justify-content-center">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 gy-3 gy-xxl-4 justify-content-center text-cust-dark">
 
         <div class="col d-flex flex-column mx-xxl-3 align-content-stretch" style="width:350px">
           <div class="p-3 rounded-4 bg-cust-light text-center flex-fill">
@@ -208,20 +194,19 @@
               <h2>C</h2>
             </div>
             <div>
-              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>I have 2 years of experience using C, from implementing data structures to OS functions such as synchronization, scheduling, and threading.</p>
             </div>
           </div>
         </div>
 
         <div class="col d-flex flex-column mx-xxl-3 align-content-stretch" style="width:350px">
-          <div class="p-3 rounded-4 bg-cust-light text-center">
+          <div class="p-3 rounded-4 bg-cust-light text-center flex-fill">
             <div class="m-3"><i class="devicon-java-plain" style="font-size: 100px"></i></div>
             <div>
               <h2>Java</h2>
             </div>
             <div>
-              <p>Some quick example text to build on the card title and make up the bulk of the card's content.Some
-                quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>I have 3 years of experience using Java, applying knowledge of object-oriented design, polymorphism, data structures implementation. </p>
             </div>
           </div>
         </div>
@@ -233,71 +218,78 @@
               <h2>Python</h2>
             </div>
             <div>
-              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>I have learned Python on my own time, developing web-scraping tools and functional GUI's for my personal projects.</p>
             </div>
           </div>
         </div>
 
         <div class="col d-flex flex-column mx-xxl-3 align-content-stretch" style="width:350px">
-          <div class="p-3 rounded-4 bg-cust-light text-center">
+          <div class="p-3 rounded-4 bg-cust-light text-center flex-fill">
             <div class="m-3"><i class="devicon-html5-plain" style="font-size: 100px"></i></div>
             <div>
               <h2>HTML</h2>
             </div>
             <div>
-              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>I have experience using HTML and web libraries to build multiple webpages, including this website and personal projects.</p>
             </div>
           </div>
         </div>
 
         <div class="col d-flex flex-column mx-xxl-3 align-content-stretch" style="width:350px">
-          <div class="p-3 rounded-4 bg-cust-light text-center">
+          <div class="p-3 rounded-4 bg-cust-light text-center flex-fill">
             <div class="m-3"><i class="devicon-javascript-plain" style="font-size: 100px"></i></div>
             <div>
               <h2>JavaScript</h2>
             </div>
             <div>
-              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>I have used JavaScript for school projects, to create interactive web pages that bridge the front-end design with a back-end REST API.</p>
             </div>
           </div>
         </div>
 
         <div class="col d-flex flex-column mx-xxl-3 align-content-stretch" style="width:350px">
-          <div class="p-3 rounded-4 bg-cust-light text-center">
+          <div class="p-3 rounded-4 bg-cust-light text-center flex-fill">
             <div class="m-3"><i class="devicon-css3-plain" style="font-size: 100px"></i></div>
             <div>
               <h2>CSS</h2>
             </div>
             <div>
-              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>Together with HTML, I have used CSS to create multiple web pages for personal projects to create responsive and appealing web stylings.</p>
             </div>
           </div>
         </div>
 
         <div class="col d-flex flex-column mx-xxl-3 align-content-stretch" style="width:350px">
-          <div class="p-3 rounded-4 bg-cust-light text-center">
+          <div class="p-3 rounded-4 bg-cust-light text-center flex-fill">
             <div class="m-3"><i class="devicon-bootstrap-plain" style="font-size: 100px"></i></div>
             <div>
               <h2>Bootstrap</h2>
             </div>
             <div>
-              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>I have learned Bootstrap as part of my efforts to expand my web technology toolkit, and built this website using Bootstrap. </p>
             </div>
           </div>
         </div>
 
         <div class="col d-flex flex-column mx-xxl-3 align-content-stretch" style="width:350px">
-          <div class="p-3 rounded-4 bg-cust-light text-center">
+          <div class="p-3 rounded-4 bg-cust-light text-center flex-fill">
             <div class="m-3"><i class="devicon-git-plain" style="font-size: 100px"></i></div>
             <div>
               <h2>Git</h2>
             </div>
             <div>
-              <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p>I have multiple years of experience using Git, particularly through GitHub, for source control and documentation within teams.</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="pt-7 pb-6 pb-sm-7 pb-lg-8" id="resumeScrollspy">
+    <div class="container-lg">
+      <h1 class="display-1 text-center pb-5 text-cust-dark">Resume</h1>
+  
     </div>
   </section>
 
