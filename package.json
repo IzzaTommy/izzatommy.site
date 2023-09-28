@@ -1,0 +1,22 @@
+{
+  "name": "izzatommy.site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IzzaTommy/izzatommy.site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IzzaTommy/izzatommy.site/issues"
+  },
+  "homepage": "https://github.com/IzzaTommy/izzatommy.site#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}

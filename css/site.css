@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url('../assets/Cascadia Mono PL SemiBold 600.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Yu Gothic';
+    src: url('../assets/Yu\ Gothic\ Medium.ttf');
+}
+
+/* typical standard size screens will use this */
+@media (max-aspect-ratio: 23/10) {
+    #landingScrollspy {
+        height: 110vh;
+    }
+}
+
+/* atypical extra-wide screens will use these*/
+@media (not (max-aspect-ratio: 23/10)) and (min-width: 400px) {
+    #landingScrollspy {
+        height: 350px;
+    }
+}
+
+@media (not (max-aspect-ratio: 23/10)) and (min-width: 700px) {
+    #landingScrollspy {
+        height: 600px;
+    }
+}
+
+@media (not (max-aspect-ratio: 23/10)) and (min-width: 1200px) {
+    #landingScrollspy {
+        height: 850px;
+    }
+}
+
+@media (not (max-aspect-ratio: 23/10)) and (min-width: 1700px) {
+    #landingScrollspy {
+        height: 1100px;
+    }
+}
+
+#landingScrollspy {
+    width: 100%;
+    background-image: url('../backgrounds/bluefirewatch.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+#aboutmeScrollspy {
+    background-image: linear-gradient(180deg, #0E1B23, #386481);
+}
+
+#projectsScrollspy, #resumeScrollspy {
+    background: #F2F2F2;
+}
+
+#skillsScrollspy {
+    background: #386481;
+}
+
+.display-1, .display-2 {
+    font-family: 'Cascadia Code';
+}
+
+p, h2{
+    font-family: 'Yu Gothic';
+}
+
+.card-body {
+    background-size: cover;
+    background-position: center center;
+}
+
+.proj-1 {
+    background-image: url('/assets/izzatommysite.png');
+}
+
+.proj-2 {
+    background-image: url('/assets/infographicmaker.png');
+}
+
+.proj-3 {
+    background-image: url('/assets/pcfanvisualizer.png');
+}
+
+.proj-4 {
+    background-image: url('/assets/roommatehub.png');
+}
+
+.card-subtitle, .card-text, .btn {
+    opacity: 0;
+}
+
+.card-body:hover :is(.card-subtitle, .card-text, .btn), .card-header:hover + .card-body :is(.card-subtitle, .card-text, .btn) {
+    opacity: 1;
+}
+
+.proj-1:hover, .card-header:hover + .proj-1 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/izzatommysite.png');
+    background-size: cover;
+    background-position: center center;
+} 
+
+.proj-2:hover, .card-header:hover + .proj-2 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/infographicmaker.png');
+    background-size: cover;
+    background-position: center center;
+} 
+
+.proj-3:hover, .card-header:hover + .proj-3 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/pcfanvisualizer.png');
+    background-size: cover;
+    background-position: center center;
+} 
+
+.proj-4:hover, .card-header:hover + .proj-4 {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/roommatehub.png');
+    background-size: cover;
+    background-position: center center;
+} 
