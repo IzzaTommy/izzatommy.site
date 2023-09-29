@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Cascadia Code';
-    src: url('../assets/Cascadia Mono PL SemiBold 600.otf') format('opentype');
+    src: url('../assets/fonts/Cascadia Mono PL SemiBold 600.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Yu Gothic';
-    src: url('../assets/Yu\ Gothic\ Medium.ttf');
+    src: url('../assets/fonts/Yu Gothic Medium.ttf');
 }
 
 /* typical standard size screens will use this */
@@ -42,7 +42,7 @@
 
 #landingScrollspy {
     width: 100%;
-    background-image: url('../backgrounds/bluefirewatch.png');
+    background-image: url('../assets/backgrounds/Blue Firewatch.png');
     background-size: cover;
     background-position: center center;
 }
@@ -73,19 +73,19 @@ p, h2{
 }
 
 .proj-1 {
-    background-image: url('/assets/izzatommysite.png');
+    background-image: url('/assets/project thumbnails/izzatommy.site Preview.png');
 }
 
 .proj-2 {
-    background-image: url('/assets/infographicmaker.png');
+    background-image: url('/assets/project thumbnails/Infographic Maker Preview.png');
 }
 
 .proj-3 {
-    background-image: url('/assets/pcfanvisualizer.png');
+    background-image: url('/assets/project thumbnails/PC Fan Visualizer Preview.png');
 }
 
 .proj-4 {
-    background-image: url('/assets/roommatehub.png');
+    background-image: url('/assets/project thumbnails/RoommateHub Preview.png');
 }
 
 .card-subtitle, .card-text, .btn {
@@ -97,25 +97,25 @@ p, h2{
 }
 
 .proj-1:hover, .card-header:hover + .proj-1 {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/izzatommysite.png');
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/izzatommy.site Preview.png');
     background-size: cover;
     background-position: center center;
 } 
 
 .proj-2:hover, .card-header:hover + .proj-2 {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/infographicmaker.png');
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/Infographic Maker Preview.png');
     background-size: cover;
     background-position: center center;
 } 
 
 .proj-3:hover, .card-header:hover + .proj-3 {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/pcfanvisualizer.png');
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/PC Fan Visualizer Preview.png');
     background-size: cover;
     background-position: center center;
 } 
 
 .proj-4:hover, .card-header:hover + .proj-4 {
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/roommatehub.png');
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/RoommateHub Preview.png');
     background-size: cover;
     background-position: center center;
 } 
