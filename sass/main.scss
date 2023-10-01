@@ -22,6 +22,7 @@ $custom-theme-colors: (
     "cust-text-bg": #606060,
     "cust-light": #F2F2F2,
     "cust-dark": #303030,
+    "cust-border": #D2D2D2, 
 );
 
 $spacers: map-merge($custom-spacers, $spacers);
