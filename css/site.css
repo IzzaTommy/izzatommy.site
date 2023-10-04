@@ -116,6 +116,15 @@ h2, p {
     opacity: 0;
 }
 
-.card-body:hover :is(.card-subtitle, .card-text, .btn), .card-header:hover + .card-body :is(.card-subtitle, .card-text, .btn) {
+.card-body:hover :is(.card-subtitle, .card-text, .proj-btn), .card-header:hover + .card-body :is(.card-subtitle, .card-text, .proj-btn) {
     opacity: 1;
+}
+
+.proj-btn, .resume-btn {
+    transition: 0s;
+}
+
+.proj-btn:hover, .resume-btn:hover {
+    background-color: #303030!important;
+    color: #F2F2F2!important;
 }
