@@ -128,3 +128,7 @@ h2, p {
     background-color: #303030!important;
     color: #F2F2F2!important;
 }
+
+a {
+    text-decoration: none;
+}
