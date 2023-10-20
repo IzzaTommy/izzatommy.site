@@ -42,7 +42,7 @@
 
 #landingScrollspy {
     width: 100%;
-    background-image: url('../assets/backgrounds/Blue Firewatch 50LR.png');
+    background-image: url('../assets/backgrounds/Blue Firewatch.webp');
     background-size: cover;
     background-position: center center;
 }
@@ -73,41 +73,41 @@ h2, p {
 }
 
 .proj-1 {
-    background-image: url('/assets/project thumbnails/izzatommy.site Preview.png');
+    background-image: url('/assets/project thumbnails/izzatommy.site Preview.webp');
 }
 
 .proj-2 {
-    background-image: url('/assets/project thumbnails/Infographic Maker Preview.png');
+    background-image: url('/assets/project thumbnails/Infographic Maker Preview.webp');
 }
 
 .proj-3 {
-    background-image: url('/assets/project thumbnails/PC Fan Visualizer Preview.png');
+    background-image: url('/assets/project thumbnails/PC Fan Visualizer Preview.webp');
 }
 
 .proj-4 {
-    background-image: url('/assets/project thumbnails/RoommateHub Preview.png');
+    background-image: url('/assets/project thumbnails/RoommateHub Preview.webp');
 }
 
 .proj-1:hover, .card-header:hover + .proj-1 {
-    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/izzatommy.site Preview.png');
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/izzatommy.site Preview.webp');
     background-size: cover;
     background-position: center center;
 } 
 
 .proj-2:hover, .card-header:hover + .proj-2 {
-    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/Infographic Maker Preview.png');
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/Infographic Maker Preview.webp');
     background-size: cover;
     background-position: center center;
 } 
 
 .proj-3:hover, .card-header:hover + .proj-3 {
-    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/PC Fan Visualizer Preview.png');
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/PC Fan Visualizer Preview.webp');
     background-size: cover;
     background-position: center center;
 } 
 
 .proj-4:hover, .card-header:hover + .proj-4 {
-    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/RoommateHub Preview.png');
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/RoommateHub Preview.webp');
     background-size: cover;
     background-position: center center;
 }
