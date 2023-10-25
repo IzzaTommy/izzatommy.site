@@ -95,7 +95,7 @@ h2, p {
 } 
 
 .proj-2:hover, .card-header:hover + .proj-2 {
-    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/Infographic Maker Preview.webp');
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/project thumbnails/CSE 135 Website Preview.webp');
     background-size: cover;
     background-position: center center;
 } 
